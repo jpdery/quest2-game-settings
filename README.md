@@ -10,6 +10,16 @@ adb shell setprop debug.oculus.textureWidth 1954
 adb shell setprop debug.oculus.textureHeight 2048
 ```
 
+## Population: One - 80 Hz - High settings
+```
+adb shell setprop debug.oculus.refreshRate 80
+adb shell setprop debug.oculus.foveation.level 3
+adb shell setprop debug.oculus.cpuLevel 3
+adb shell setprop debug.oculus.gpuLevel 4
+adb shell setprop debug.oculus.textureWidth 1954
+adb shell setprop debug.oculus.textureHeight 2048
+```
+
 ## Population: One - 90 Hz - Medium settings
 ```
 adb shell setprop debug.oculus.refreshRate 90
